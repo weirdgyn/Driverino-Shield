@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Socket_Arduino_Uno)(type KiCad)(uri "$(KIPRJMOD)/Socket_Arduino_Uno.pretty")(options "")(descr ""))
+  (lib (name Driverino-Shield)(type KiCad)(uri ${KIPRJMOD}/Driverino-Shield.pretty)(options "")(descr ""))
+)
