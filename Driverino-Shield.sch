@@ -276,7 +276,7 @@ Wire Notes Line
 Wire Notes Line
 	15550 1000 15550 500 
 $Comp
-L texas2:MCT8316Z U1
+L Driverino-Shield-rescue:MCT8316Z-texas2 U1
 U 1 1 6093BC9E
 P 6300 4675
 F 0 "U1" H 6900 5750 50  0000 C CNN
@@ -287,7 +287,7 @@ F 3 "" H 8225 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_2 P9
+L Driverino-Shield-rescue:CONN_2-conn P9
 U 1 1 6093D2E6
 P 15100 4525
 F 0 "P9" H 15250 4600 40  0000 L CNN
@@ -298,11 +298,11 @@ F 3 "" H 15100 4525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_3 P10
+L Driverino-Shield-rescue:CONN_3-conn P10
 U 1 1 6093DA18
 P 15100 5100
-F 0 "P10" H 15250 5150 50  0000 L CNN
-F 1 "MOT" H 15250 5050 40  0000 L CNN
+F 0 "P10" H 15228 5128 50  0000 L CNN
+F 1 "MOT" H 15228 5044 40  0000 L CNN
 F 2 "Driverino-Shield:39773-0003" H 15100 5100 50  0001 C CNN
 F 3 "" H 15100 5100 50  0001 C CNN
 	1    15100 5100
@@ -328,7 +328,7 @@ Connection ~ 6650 3400
 Wire Wire Line
 	6650 3400 6650 3300
 $Comp
-L device:R R6
+L Driverino-Shield-rescue:R-device R6
 U 1 1 609404C4
 P 6925 2975
 F 0 "R6" H 7000 3050 40  0000 L CNN
@@ -339,7 +339,7 @@ F 3 "" H 6925 2975 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR021
+L Driverino-Shield-rescue:+3.3V-power #PWR021
 U 1 1 60940AD1
 P 7400 3850
 F 0 "#PWR021" H 7400 3810 30  0001 C CNN
@@ -361,7 +361,7 @@ Connection ~ 4850 3875
 Wire Wire Line
 	4850 3875 4475 3875
 $Comp
-L power:GND #PWR09
+L Driverino-Shield-rescue:GND-power #PWR09
 U 1 1 609443F8
 P 4475 3875
 F 0 "#PWR09" H 4475 3875 30  0001 C CNN
@@ -384,7 +384,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 4725 4950 4725
 $Comp
-L device:C C6
+L Driverino-Shield-rescue:C-device C6
 U 1 1 6094A671
 P 5150 4725
 F 0 "C6" V 5350 4725 40  0000 C CNN
@@ -401,7 +401,7 @@ Wire Wire Line
 Wire Wire Line
 	5475 4825 4675 4825
 $Comp
-L device:C C5
+L Driverino-Shield-rescue:C-device C5
 U 1 1 60952082
 P 4475 4825
 F 0 "C5" V 4225 4825 40  0000 C CNN
@@ -416,7 +416,7 @@ Wire Wire Line
 Wire Wire Line
 	4075 4825 4075 4700
 $Comp
-L power:+36V #PWR07
+L Driverino-Shield-rescue:+36V-power #PWR07
 U 1 1 609540F9
 P 4075 4700
 F 0 "#PWR07" H 4075 4670 30  0001 C CNN
@@ -427,7 +427,7 @@ F 3 "" H 4075 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR08
+L Driverino-Shield-rescue:GNDPWR-power #PWR08
 U 1 1 609546D6
 P 4075 5825
 F 0 "#PWR08" H 4075 5875 40  0001 C CNN
@@ -453,7 +453,7 @@ Wire Wire Line
 	4075 5125 4075 5025
 Connection ~ 4075 5025
 $Comp
-L device:C C3
+L Driverino-Shield-rescue:C-device C3
 U 1 1 6095A4F0
 P 4075 5450
 F 0 "C3" H 3950 5400 40  0000 R CNN
@@ -464,7 +464,7 @@ F 3 "" H 4075 5450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C4
+L Driverino-Shield-rescue:C-device C4
 U 1 1 6095A832
 P 4475 5450
 F 0 "C4" H 4350 5400 40  0000 R CNN
@@ -475,7 +475,7 @@ F 3 "" H 4475 5450 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:CP1 C2
+L Driverino-Shield-rescue:CP1-device C2
 U 1 1 6095AE31
 P 3800 5450
 F 0 "C2" H 3650 5500 50  0000 R CNN
@@ -551,7 +551,7 @@ Wire Wire Line
 Wire Wire Line
 	6450 5825 6450 6250
 $Comp
-L power:GNDPWR #PWR017
+L Driverino-Shield-rescue:GNDPWR-power #PWR017
 U 1 1 609932C8
 P 6150 6250
 F 0 "#PWR017" H 6150 6300 40  0001 C CNN
@@ -562,7 +562,7 @@ F 3 "" H 6150 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDPWR #PWR018
+L Driverino-Shield-rescue:GNDPWR-power #PWR018
 U 1 1 609937EA
 P 6450 6250
 F 0 "#PWR018" H 6450 6300 40  0001 C CNN
@@ -573,7 +573,7 @@ F 3 "" H 6450 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C7
+L Driverino-Shield-rescue:C-device C7
 U 1 1 60993F03
 P 7750 4825
 F 0 "C7" V 7575 4825 40  0000 C CNN
@@ -589,11 +589,11 @@ Connection ~ 7400 4825
 Wire Wire Line
 	7950 4825 8300 4825
 $Comp
-L device:C C10
+L Driverino-Shield-rescue:C-device C10
 U 1 1 6099F702
 P 13050 6425
-F 0 "C10" H 12900 6350 40  0000 R CNN
-F 1 "100nF" H 12900 6450 40  0000 R CNN
+F 0 "C10" H 12935 6387 40  0000 R CNN
+F 1 "100nF" H 12935 6463 40  0000 R CNN
 F 2 "Driverino-Shield:C_0603_1608Metric" H 13088 6275 30  0001 C CNN
 F 3 "" H 13050 6425 60  0000 C CNN
 	1    13050 6425
@@ -602,22 +602,22 @@ $EndComp
 Wire Wire Line
 	7125 4225 8275 4225
 $Comp
-L device:C C11
+L Driverino-Shield-rescue:C-device C11
 U 1 1 609A719D
 P 13050 6950
-F 0 "C11" H 13200 6900 40  0000 L CNN
-F 1 "100nF" H 13200 6950 40  0000 L CNN
+F 0 "C11" H 13164 6912 40  0000 L CNN
+F 1 "100nF" H 13164 6988 40  0000 L CNN
 F 2 "Driverino-Shield:C_0603_1608Metric" H 13088 6800 30  0001 C CNN
 F 3 "" H 13050 6950 60  0000 C CNN
 	1    13050 6950
 	-1   0    0    1   
 $EndComp
 $Comp
-L device:C C12
+L Driverino-Shield-rescue:C-device C12
 U 1 1 609C8A37
 P 13050 7475
-F 0 "C12" H 12900 7400 40  0000 R CNN
-F 1 "100nF" H 12900 7500 40  0000 R CNN
+F 0 "C12" H 12935 7437 40  0000 R CNN
+F 1 "100nF" H 12935 7513 40  0000 R CNN
 F 2 "Driverino-Shield:C_0603_1608Metric" H 13088 7325 30  0001 C CNN
 F 3 "" H 13050 7475 60  0000 C CNN
 	1    13050 7475
@@ -638,7 +638,7 @@ Wire Wire Line
 Wire Wire Line
 	5675 3400 5675 3225
 $Comp
-L device:R R2
+L Driverino-Shield-rescue:R-device R2
 U 1 1 609E8F76
 P 5675 2975
 F 0 "R2" H 5600 3050 40  0000 R CNN
@@ -698,29 +698,29 @@ Wire Wire Line
 Wire Wire Line
 	14225 5200 14750 5200
 $Comp
-L device:INDUCTOR_SMALL L2
+L Driverino-Shield-rescue:INDUCTOR_SMALL-device L1
 U 1 1 60A40138
 P 4025 8700
-F 0 "L2" H 4050 8950 50  0000 C CNN
+F 0 "L1" H 4050 8950 50  0000 C CNN
 F 1 "47uH" H 4050 8850 50  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 4025 8700 60  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric" H 4025 8700 60  0001 C CNN
 F 3 "" H 4025 8700 60  0000 C CNN
 	1    4025 8700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:FUSE F1
+L Driverino-Shield-rescue:FUSE-device F1
 U 1 1 60A408DE
 P 3150 8700
 F 0 "F1" H 3150 8950 40  0000 C CNN
 F 1 "200mA" H 3150 8850 40  0000 C CNN
-F 2 "Fuse:Fuse_0402_1005Metric" H 3150 8700 60  0000 C CNN
+F 2 "Fuse:Fuse_0402_1005Metric" H 3150 8700 60  0001 C CNN
 F 3 "" H 3150 8700 60  0000 C CNN
 	1    3150 8700
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:C C1
+L Driverino-Shield-rescue:C-device C1
 U 1 1 60A40FF5
 P 3575 9075
 F 0 "C1" H 3450 9025 40  0000 R CNN
@@ -750,7 +750,7 @@ FB
 Wire Wire Line
 	2900 8700 2625 8700
 $Comp
-L power:VCC #PWR05
+L Driverino-Shield-rescue:VCC-power #PWR05
 U 1 1 60A674EB
 P 2625 8700
 F 0 "#PWR05" H 2625 8800 30  0001 C CNN
@@ -761,7 +761,7 @@ F 3 "" H 2625 8700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L device:R R1
+L Driverino-Shield-rescue:R-device R1
 U 1 1 60A67DF3
 P 5200 8625
 F 0 "R1" H 5300 8700 40  0000 L CNN
@@ -772,7 +772,7 @@ F 3 "" H 5200 8625 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D1
+L Driverino-Shield-rescue:LED-device D1
 U 1 1 60A68AB4
 P 5200 9200
 F 0 "D1" V 5150 9300 50  0000 L CNN
@@ -793,7 +793,7 @@ Wire Wire Line
 Wire Wire Line
 	5675 2725 5675 2600
 $Comp
-L power:+3.3V #PWR020
+L Driverino-Shield-rescue:+3.3V-power #PWR020
 U 1 1 60A91AA3
 P 6925 2600
 F 0 "#PWR020" H 6925 2560 30  0001 C CNN
@@ -804,7 +804,7 @@ F 3 "" H 6925 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR012
+L Driverino-Shield-rescue:+3.3V-power #PWR012
 U 1 1 60A9222D
 P 5675 2600
 F 0 "#PWR012" H 5675 2560 30  0001 C CNN
@@ -815,7 +815,7 @@ F 3 "" H 5675 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR010
+L Driverino-Shield-rescue:+3.3V-power #PWR010
 U 1 1 60A92954
 P 5200 8225
 F 0 "#PWR010" H 5200 8185 30  0001 C CNN
@@ -826,7 +826,7 @@ F 3 "" H 5200 8225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R3
+L Driverino-Shield-rescue:R-device R3
 U 1 1 60A93106
 P 5675 8625
 F 0 "R3" H 5750 8700 40  0000 L CNN
@@ -837,7 +837,7 @@ F 3 "" H 5675 8625 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D2
+L Driverino-Shield-rescue:LED-device D2
 U 1 1 60A934B4
 P 5675 9200
 F 0 "D2" V 5625 9325 50  0000 L CNN
@@ -854,7 +854,7 @@ Wire Wire Line
 Wire Wire Line
 	5675 8375 5675 8225
 $Comp
-L device:R R4
+L Driverino-Shield-rescue:R-device R4
 U 1 1 60A9A725
 P 6150 8625
 F 0 "R4" H 6225 8700 40  0000 L CNN
@@ -865,7 +865,7 @@ F 3 "" H 6150 8625 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D3
+L Driverino-Shield-rescue:LED-device D3
 U 1 1 60A9AB15
 P 6150 9200
 F 0 "D3" V 6100 9325 50  0000 L CNN
@@ -882,7 +882,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 8375 6150 8225
 $Comp
-L device:R R5
+L Driverino-Shield-rescue:R-device R5
 U 1 1 60A9AB36
 P 6650 8625
 F 0 "R5" H 6750 8700 40  0000 L CNN
@@ -893,7 +893,7 @@ F 3 "" H 6650 8625 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:LED D4
+L Driverino-Shield-rescue:LED-device D4
 U 1 1 60A9AB40
 P 6650 9200
 F 0 "D4" V 6600 9300 50  0000 L CNN
@@ -910,7 +910,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 8375 6650 8225
 $Comp
-L power:+3.3V #PWR019
+L Driverino-Shield-rescue:+3.3V-power #PWR019
 U 1 1 60A9ABA3
 P 6650 8225
 F 0 "#PWR019" H 6650 8185 30  0001 C CNN
@@ -921,7 +921,7 @@ F 3 "" H 6650 8225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR013
+L Driverino-Shield-rescue:VCC-power #PWR013
 U 1 1 60AA30A9
 P 5675 8225
 F 0 "#PWR013" H 5675 8325 30  0001 C CNN
@@ -932,7 +932,7 @@ F 3 "" H 5675 8225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+36V #PWR015
+L Driverino-Shield-rescue:+36V-power #PWR015
 U 1 1 60AA3841
 P 6150 8225
 F 0 "#PWR015" H 6150 8195 30  0001 C CNN
@@ -949,7 +949,7 @@ Wire Wire Line
 Wire Wire Line
 	14225 4625 14225 4750
 $Comp
-L power:GNDPWR #PWR029
+L Driverino-Shield-rescue:GNDPWR-power #PWR029
 U 1 1 60AAC24C
 P 14225 4750
 F 0 "#PWR029" H 14225 4800 40  0001 C CNN
@@ -960,7 +960,7 @@ F 3 "" H 14225 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R17
+L Driverino-Shield-rescue:R-device R17
 U 1 1 60AAC8F6
 P 13875 4625
 F 0 "R17" V 13650 4650 40  0000 C CNN
@@ -982,7 +982,7 @@ Wire Wire Line
 Wire Wire Line
 	14225 4425 14225 4250
 $Comp
-L power:+36V #PWR028
+L Driverino-Shield-rescue:+36V-power #PWR028
 U 1 1 60AD3B2C
 P 14225 4250
 F 0 "#PWR028" H 14225 4220 30  0001 C CNN
@@ -1017,33 +1017,33 @@ HAN
 Text Label 12875 6225 0    50   ~ 0
 HAP
 $Comp
-L conn:CONN_8 P11
+L Driverino-Shield-rescue:CONN_8-conn P11
 U 1 1 60B00484
 P 15100 6950
-F 0 "P11" H 15000 6300 60  0000 C CNN
-F 1 "HALL" H 15000 6450 60  0000 C CNN
+F 0 "P11" H 14967 6353 60  0000 C CNN
+F 1 "HALL" H 14967 6459 60  0000 C CNN
 F 2 "Driverino-Shield:Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical" H 15100 6950 50  0001 C CNN
 F 3 "" H 15100 6950 50  0001 C CNN
 	1    15100 6950
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R21
+L Driverino-Shield-rescue:R-device R21
 U 1 1 60B34735
 P 14225 7550
-F 0 "R21" H 14300 7600 40  0000 L CNN
-F 1 "0R" H 14300 7550 40  0000 L CNN
+F 0 "R21" H 14296 7588 40  0000 L CNN
+F 1 "0R" H 14296 7512 40  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14155 7550 30  0001 C CNN
 F 3 "" H 14225 7550 30  0000 C CNN
 	1    14225 7550
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R19
+L Driverino-Shield-rescue:R-device R19
 U 1 1 60B34A3B
 P 13950 7550
-F 0 "R19" H 14050 7600 40  0000 L CNN
-F 1 "0R" H 14050 7550 40  0000 L CNN
+F 0 "R19" H 14021 7588 40  0000 L CNN
+F 1 "0R" H 14021 7512 40  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13880 7550 30  0001 C CNN
 F 3 "" H 13950 7550 30  0000 C CNN
 	1    13950 7550
@@ -1072,7 +1072,7 @@ Connection ~ 14225 7900
 Wire Wire Line
 	14225 7900 14225 8025
 $Comp
-L power:GND #PWR030
+L Driverino-Shield-rescue:GND-power #PWR030
 U 1 1 60B7790C
 P 14225 8025
 F 0 "#PWR030" H 14225 8025 30  0001 C CNN
@@ -1083,11 +1083,11 @@ F 3 "" H 14225 8025 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L device:R R23
+L Driverino-Shield-rescue:R-device R23
 U 1 1 60B34246
 P 14500 7550
-F 0 "R23" H 14600 7600 40  0000 L CNN
-F 1 "0R" H 14600 7550 40  0000 L CNN
+F 0 "R23" H 14571 7588 40  0000 L CNN
+F 1 "0R" H 14571 7512 40  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14430 7550 30  0001 C CNN
 F 3 "" H 14500 7550 30  0000 C CNN
 	1    14500 7550
@@ -1112,18 +1112,18 @@ Wire Wire Line
 	13950 5925 13950 6025
 Connection ~ 14225 5925
 $Comp
-L device:R R22
+L Driverino-Shield-rescue:R-device R22
 U 1 1 60B83DCC
 P 14500 6275
-F 0 "R22" H 14400 6200 40  0000 R CNN
-F 1 "10k" H 14400 6300 40  0000 R CNN
+F 0 "R22" H 14429 6237 40  0000 R CNN
+F 1 "10k" H 14429 6313 40  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14430 6275 30  0001 C CNN
 F 3 "" H 14500 6275 30  0000 C CNN
 	1    14500 6275
 	1    0    0    1   
 $EndComp
 $Comp
-L power:VCC #PWR031
+L Driverino-Shield-rescue:VCC-power #PWR031
 U 1 1 60BA8515
 P 15100 5700
 F 0 "#PWR031" H 15100 5800 30  0001 C CNN
@@ -1136,22 +1136,22 @@ $EndComp
 Wire Wire Line
 	14750 6600 14700 6600
 $Comp
-L device:R R20
+L Driverino-Shield-rescue:R-device R20
 U 1 1 60BC0F2F
 P 14225 6275
-F 0 "R20" H 14150 6200 40  0000 R CNN
-F 1 "10k" H 14150 6300 40  0000 R CNN
+F 0 "R20" H 14154 6237 40  0000 R CNN
+F 1 "10k" H 14154 6313 40  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 14155 6275 30  0001 C CNN
 F 3 "" H 14225 6275 30  0000 C CNN
 	1    14225 6275
 	1    0    0    1   
 $EndComp
 $Comp
-L device:R R18
+L Driverino-Shield-rescue:R-device R18
 U 1 1 60BC107A
 P 13950 6275
-F 0 "R18" H 13850 6200 40  0000 R CNN
-F 1 "10k" H 13850 6300 40  0000 R CNN
+F 0 "R18" H 13879 6237 40  0000 R CNN
+F 1 "10k" H 13879 6313 40  0000 R CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 13880 6275 30  0001 C CNN
 F 3 "" H 13950 6275 30  0000 C CNN
 	1    13950 6275
@@ -1167,7 +1167,7 @@ Wire Wire Line
 	14500 7100 14500 6525
 Connection ~ 14500 7100
 $Comp
-L device:R R8
+L Driverino-Shield-rescue:R-device R8
 U 1 1 60BF2E41
 P 8300 9075
 F 0 "R8" H 8400 9150 40  0000 L CNN
@@ -1178,7 +1178,7 @@ F 3 "" H 8300 9075 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L device:R R7
+L Driverino-Shield-rescue:R-device R7
 U 1 1 60BF32EC
 P 7950 8700
 F 0 "R7" V 7750 8700 40  0000 C CNN
@@ -1189,7 +1189,7 @@ F 3 "" H 7950 8700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C8
+L Driverino-Shield-rescue:C-device C8
 U 1 1 60BF352B
 P 8625 9075
 F 0 "C8" H 8500 9000 40  0000 R CNN
@@ -1221,7 +1221,7 @@ Connection ~ 8300 9400
 Wire Wire Line
 	8300 9400 8300 9475
 $Comp
-L device:R R13
+L Driverino-Shield-rescue:R-device R13
 U 1 1 60C525A0
 P 10100 8700
 F 0 "R13" V 9900 8700 40  0000 C CNN
@@ -1232,7 +1232,7 @@ F 3 "" H 10100 8700 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L device:C C9
+L Driverino-Shield-rescue:C-device C9
 U 1 1 60C525AA
 P 10450 9075
 F 0 "C9" H 10300 9000 40  0000 R CNN
@@ -1256,7 +1256,7 @@ Wire Wire Line
 Text Label 11050 8700 2    60   ~ 0
 ILIM
 $Comp
-L power:+36V #PWR022
+L Driverino-Shield-rescue:+36V-power #PWR022
 U 1 1 60C6F850
 P 7525 8700
 F 0 "#PWR022" H 7525 8670 30  0001 C CNN
@@ -1279,33 +1279,33 @@ BRAKE
 Text Label 9675 5800 0    60   ~ 0
 CS
 $Comp
-L device:R R10
+L Driverino-Shield-rescue:R-device R10
 U 1 1 60D4B964
 P 10200 4850
-F 0 "R10" V 10000 4875 40  0000 C CNN
-F 1 "0R" V 10050 4875 40  0000 C CNN
+F 0 "R10" V 10015 4850 40  0000 C CNN
+F 1 "0R" V 10091 4850 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 4850 30  0001 C CNN
 F 3 "" H 10200 4850 30  0000 C CNN
 	1    10200 4850
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R11
+L Driverino-Shield-rescue:R-device R11
 U 1 1 60D4BA5B
 P 10200 4550
-F 0 "R11" V 10000 4575 40  0000 C CNN
-F 1 "0R" V 10050 4575 40  0000 C CNN
+F 0 "R11" V 10015 4550 40  0000 C CNN
+F 1 "0R" V 10091 4550 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 4550 30  0001 C CNN
 F 3 "" H 10200 4550 30  0000 C CNN
 	1    10200 4550
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R12
+L Driverino-Shield-rescue:R-device R12
 U 1 1 60D4BB67
 P 10200 5150
-F 0 "R12" V 10000 5150 40  0000 C CNN
-F 1 "0R" V 10050 5150 40  0000 C CNN
+F 0 "R12" V 10015 5150 40  0000 C CNN
+F 1 "0R" V 10091 5150 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 5150 30  0001 C CNN
 F 3 "" H 10200 5150 30  0000 C CNN
 	1    10200 5150
@@ -1314,11 +1314,11 @@ $EndComp
 Wire Wire Line
 	9675 5150 9950 5150
 $Comp
-L device:R R9
+L Driverino-Shield-rescue:R-device R9
 U 1 1 60D672D7
 P 10200 5800
-F 0 "R9" V 9975 5825 40  0000 C CNN
-F 1 "0R" V 10075 5825 40  0000 C CNN
+F 0 "R9" V 10015 5800 40  0000 C CNN
+F 1 "0R" V 10091 5800 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 5800 30  0001 C CNN
 F 3 "" H 10200 5800 30  0000 C CNN
 	1    10200 5800
@@ -1327,11 +1327,11 @@ $EndComp
 Wire Wire Line
 	9675 5800 9950 5800
 $Comp
-L device:R R15
+L Driverino-Shield-rescue:R-device R15
 U 1 1 60DFE4AF
 P 10200 6425
-F 0 "R15" V 9975 6425 40  0000 C CNN
-F 1 "0R" V 10075 6425 40  0000 C CNN
+F 0 "R15" V 10015 6425 40  0000 C CNN
+F 1 "0R" V 10091 6425 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 6425 30  0001 C CNN
 F 3 "" H 10200 6425 30  0000 C CNN
 	1    10200 6425
@@ -1342,22 +1342,22 @@ Wire Wire Line
 Wire Wire Line
 	9950 6425 9675 6425
 $Comp
-L device:R R16
+L Driverino-Shield-rescue:R-device R16
 U 1 1 60DFEAB8
 P 10200 5475
-F 0 "R16" V 9975 5475 40  0000 C CNN
-F 1 "0R" V 10075 5475 40  0000 C CNN
+F 0 "R16" V 10015 5475 40  0000 C CNN
+F 1 "0R" V 10091 5475 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 5475 30  0001 C CNN
 F 3 "" H 10200 5475 30  0000 C CNN
 	1    10200 5475
 	0    1    1    0   
 $EndComp
 $Comp
-L device:R R14
+L Driverino-Shield-rescue:R-device R14
 U 1 1 60DFEAC2
 P 10200 6125
-F 0 "R14" V 9975 6125 40  0000 C CNN
-F 1 "0R" V 10075 6125 40  0000 C CNN
+F 0 "R14" V 10015 6125 40  0000 C CNN
+F 1 "0R" V 10091 6125 40  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 10130 6125 30  0001 C CNN
 F 3 "" H 10200 6125 30  0000 C CNN
 	1    10200 6125
@@ -1458,12 +1458,12 @@ Text Label 10575 5150 0    60   ~ 0
 Text Label 10575 4550 0    60   ~ 0
 8
 $Comp
-L device:ZENER D5
+L Driverino-Shield-rescue:ZENER-device D5
 U 1 1 610CB192
 P 9050 9075
 F 0 "D5" V 9125 8975 50  0000 R CNN
 F 1 "Vz=5V" V 9025 8975 40  0000 R CNN
-F 2 "Diode_SMD:D_0603_1608Metric" H 9050 9075 60  0000 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric" H 9050 9075 60  0001 C CNN
 F 3 "" H 9050 9075 60  0000 C CNN
 	1    9050 9075
 	0    -1   -1   0   
@@ -1487,18 +1487,18 @@ Text Label 10575 6425 0    60   ~ 0
 Text Label 10575 6125 0    60   ~ 0
 3(**)
 $Comp
-L device:JUMPER3 JP1
+L Driverino-Shield-rescue:JUMPER3-device JP1
 U 1 1 610FC42F
 P 14700 5700
-F 0 "JP1" H 14725 5950 40  0000 C CNN
-F 1 "HAL_SEL" H 14725 5850 40  0000 C CNN
-F 2 "Driverino-Shield:3JUMPER_0603" H 14700 5700 60  0001 C CNN
-F 3 "" H 14700 5700 60  0000 C CNN
+F 0 "JP1" H 14700 5916 40  0000 C CNN
+F 1 "HAL_SEL" H 14700 5840 40  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical" H 14700 5700 60  0001 C CNN
+F 3 "" H 14700 5700 60  0001 C CNN
 	1    14700 5700
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR027
+L Driverino-Shield-rescue:+3.3V-power #PWR027
 U 1 1 610FD83B
 P 13950 5700
 F 0 "#PWR027" H 13950 5660 30  0001 C CNN
@@ -1537,10 +1537,10 @@ Wire Wire Line
 Wire Wire Line
 	5150 4225 5475 4225
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0101
 U 1 1 609F5EB5
 P 8300 5625
-F 0 "#PWR?" H 8300 5625 30  0001 C CNN
+F 0 "#PWR0101" H 8300 5625 30  0001 C CNN
 F 1 "GND" H 8300 5555 30  0001 C CNN
 F 2 "" H 8300 5625 50  0001 C CNN
 F 3 "" H 8300 5625 50  0001 C CNN
@@ -1548,10 +1548,10 @@ F 3 "" H 8300 5625 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0102
 U 1 1 609F6425
 P 15150 3150
-F 0 "#PWR?" H 15150 3150 30  0001 C CNN
+F 0 "#PWR0102" H 15150 3150 30  0001 C CNN
 F 1 "GND" H 15150 3080 30  0001 C CNN
 F 2 "" H 15150 3150 50  0001 C CNN
 F 3 "" H 15150 3150 50  0001 C CNN
@@ -1559,10 +1559,10 @@ F 3 "" H 15150 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0103
 U 1 1 609F67E5
 P 14150 3150
-F 0 "#PWR?" H 14150 3150 30  0001 C CNN
+F 0 "#PWR0103" H 14150 3150 30  0001 C CNN
 F 1 "GND" H 14150 3080 30  0001 C CNN
 F 2 "" H 14150 3150 50  0001 C CNN
 F 3 "" H 14150 3150 50  0001 C CNN
@@ -1570,10 +1570,10 @@ F 3 "" H 14150 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0104
 U 1 1 609F6B31
 P 13500 4750
-F 0 "#PWR?" H 13500 4750 30  0001 C CNN
+F 0 "#PWR0104" H 13500 4750 30  0001 C CNN
 F 1 "GND" H 13500 4680 30  0001 C CNN
 F 2 "" H 13500 4750 50  0001 C CNN
 F 3 "" H 13500 4750 50  0001 C CNN
@@ -1581,10 +1581,10 @@ F 3 "" H 13500 4750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0105
 U 1 1 60A075E4
 P 10450 9475
-F 0 "#PWR?" H 10450 9475 30  0001 C CNN
+F 0 "#PWR0105" H 10450 9475 30  0001 C CNN
 F 1 "GND" H 10450 9405 30  0001 C CNN
 F 2 "" H 10450 9475 50  0001 C CNN
 F 3 "" H 10450 9475 50  0001 C CNN
@@ -1592,10 +1592,10 @@ F 3 "" H 10450 9475 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0106
 U 1 1 60A08083
 P 8300 9475
-F 0 "#PWR?" H 8300 9475 30  0001 C CNN
+F 0 "#PWR0106" H 8300 9475 30  0001 C CNN
 F 1 "GND" H 8300 9405 30  0001 C CNN
 F 2 "" H 8300 9475 50  0001 C CNN
 F 3 "" H 8300 9475 50  0001 C CNN
@@ -1603,10 +1603,10 @@ F 3 "" H 8300 9475 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0107
 U 1 1 60A083E3
 P 5675 9475
-F 0 "#PWR?" H 5675 9475 30  0001 C CNN
+F 0 "#PWR0107" H 5675 9475 30  0001 C CNN
 F 1 "GND" H 5675 9405 30  0001 C CNN
 F 2 "" H 5675 9475 50  0001 C CNN
 F 3 "" H 5675 9475 50  0001 C CNN
@@ -1614,10 +1614,10 @@ F 3 "" H 5675 9475 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0108
 U 1 1 60A0888D
 P 6150 9475
-F 0 "#PWR?" H 6150 9475 30  0001 C CNN
+F 0 "#PWR0108" H 6150 9475 30  0001 C CNN
 F 1 "GND" H 6150 9405 30  0001 C CNN
 F 2 "" H 6150 9475 50  0001 C CNN
 F 3 "" H 6150 9475 50  0001 C CNN
@@ -1625,10 +1625,10 @@ F 3 "" H 6150 9475 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0109
 U 1 1 60A08B06
 P 5200 9475
-F 0 "#PWR?" H 5200 9475 30  0001 C CNN
+F 0 "#PWR0109" H 5200 9475 30  0001 C CNN
 F 1 "GND" H 5200 9405 30  0001 C CNN
 F 2 "" H 5200 9475 50  0001 C CNN
 F 3 "" H 5200 9475 50  0001 C CNN
@@ -1636,10 +1636,10 @@ F 3 "" H 5200 9475 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L Driverino-Shield-rescue:GND-power #PWR0110
 U 1 1 60A08E97
 P 3575 9475
-F 0 "#PWR?" H 3575 9475 30  0001 C CNN
+F 0 "#PWR0110" H 3575 9475 30  0001 C CNN
 F 1 "GND" H 3575 9405 30  0001 C CNN
 F 2 "" H 3575 9475 50  0001 C CNN
 F 3 "" H 3575 9475 50  0001 C CNN
@@ -1650,4 +1650,41 @@ Text Label 10575 5800 0    60   ~ 0
 4
 Text Label 10575 4850 0    60   ~ 0
 7
+$Comp
+L Driverino-Shield-rescue:VCC-power #PWR0111
+U 1 1 60967B61
+P 11750 4625
+F 0 "#PWR0111" H 11750 4725 30  0001 C CNN
+F 1 "VCC" V 11775 4750 30  0000 L CNN
+F 2 "" H 11750 4625 50  0001 C CNN
+F 3 "" H 11750 4625 50  0001 C CNN
+	1    11750 4625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper JP2
+U 1 1 60969235
+P 12250 4625
+F 0 "JP2" H 12250 4889 50  0000 C CNN
+F 1 "VCC_SEL" H 12250 4798 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 12250 4625 50  0001 C CNN
+F 3 "~" H 12250 4625 50  0001 C CNN
+	1    12250 4625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11750 4625 11950 4625
+$Comp
+L Driverino-Shield-rescue:+5V-power #PWR0112
+U 1 1 60989EF1
+P 12750 4625
+F 0 "#PWR0112" H 12750 4475 50  0001 C CNN
+F 1 "+5V" V 12750 4825 50  0000 C CNN
+F 2 "" H 12750 4625 50  0000 C CNN
+F 3 "" H 12750 4625 50  0000 C CNN
+	1    12750 4625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	12550 4625 12750 4625
 $EndSCHEMATC

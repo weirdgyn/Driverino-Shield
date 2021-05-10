@@ -1,18 +1,53 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Device_Jumper
+#
+DEF Device_Jumper JP 0 30 Y N 1 F N
+F0 "JP" 0 150 50 H V C CNN
+F1 "Device_Jumper" 0 -80 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ SolderJumper*
+ Jumper*
+ TestPoint*2Pads*
+ TestPoint*Bridge*
+$ENDFPLIST
+DRAW
+A 0 -26 125 1426 373 0 1 0 N -98 50 99 50
+C -100 0 35 0 1 0 N
+C 100 0 35 0 1 0 N
+X 1 1 -300 0 165 R 50 50 0 1 P
+X 2 2 300 0 165 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 # Driverino-Shield-rescue_+3.3V-power
 #
 DEF Driverino-Shield-rescue_+3.3V-power #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "Driverino-Shield-rescue_+3.3V-power" 0 140 50 H V C CNN
+F0 "#PWR" 0 -40 30 H I C CNN
+F1 "Driverino-Shield-rescue_+3.3V-power" 0 110 30 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
+C 0 60 20 0 1 0 N
+P 3 0 1 0 0 0 0 40 0 40 N
+X +3.3V 1 0 0 0 U 30 30 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_+36V-power
+#
+DEF Driverino-Shield-rescue_+36V-power #PWR 0 0 N Y 1 F P
+F0 "#PWR" 0 -30 30 H I C CNN
+F1 "Driverino-Shield-rescue_+36V-power" 0 110 40 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 60 20 0 1 0 N
+P 4 0 1 0 0 0 0 40 0 40 0 40 N
+X +36V 1 0 0 0 U 30 30 0 0 W N
 ENDDRAW
 ENDDEF
 #
@@ -28,6 +63,95 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_C-device
+#
+DEF Driverino-Shield-rescue_C-device C 0 10 N Y 1 F N
+F0 "C" 0 100 40 H V L CNN
+F1 "Driverino-Shield-rescue_C-device" 6 -85 40 H V L CNN
+F2 "" 38 -150 30 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ SM*
+ C?
+ C1-1
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 200 170 D 40 40 1 1 P
+X ~ 2 0 -200 170 U 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_CONN_2-conn
+#
+DEF Driverino-Shield-rescue_CONN_2-conn P 0 40 Y N 1 F N
+F0 "P" -50 0 40 V V C CNN
+F1 "Driverino-Shield-rescue_CONN_2-conn" 50 0 40 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 60 60 1 1 P I
+X PM 2 -350 -100 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_CONN_3-conn
+#
+DEF Driverino-Shield-rescue_CONN_3-conn K 0 40 Y N 1 F N
+F0 "K" -50 0 50 V V C CNN
+F1 "Driverino-Shield-rescue_CONN_3-conn" 50 0 40 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 150 100 -150 0 1 0 N
+X P1 1 -350 100 250 R 60 60 1 1 P I
+X PM 2 -350 0 250 R 60 60 1 1 P I
+X P3 3 -350 -100 250 R 60 60 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_CONN_8-conn
+#
+DEF Driverino-Shield-rescue_CONN_8-conn P 0 40 Y N 1 F N
+F0 "P" -50 0 60 V V C CNN
+F1 "Driverino-Shield-rescue_CONN_8-conn" 50 0 60 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -100 400 100 -400 0 1 0 N
+X P1 1 -350 350 250 R 50 50 1 1 P I
+X P2 2 -350 250 250 R 50 50 1 1 P I
+X P3 3 -350 150 250 R 50 50 1 1 P I
+X P4 4 -350 50 250 R 50 50 1 1 P I
+X P5 5 -350 -50 250 R 50 50 1 1 P I
+X P6 6 -350 -150 250 R 50 50 1 1 P I
+X P7 7 -350 -250 250 R 50 50 1 1 P I
+X P8 8 -350 -350 250 R 50 50 1 1 P I
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_CP1-device
+#
+DEF Driverino-Shield-rescue_CP1-device C 0 10 N N 1 F N
+F0 "C" 50 100 50 H V L CNN
+F1 "Driverino-Shield-rescue_CP1-device" 50 -100 50 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ CP*
+ SM*
+$ENDFPLIST
+DRAW
+A 0 -200 180 563 1236 0 1 15 N 100 -50 -100 -50
+T 0 -50 100 80 0 0 0 + Normal 0 C C
+P 4 0 1 15 -100 50 100 50 50 50 50 50 N
+X ~ 1 0 200 150 D 40 40 1 1 P
+X ~ 2 0 -200 180 U 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -141,100 +265,11 @@ X Pin_9 9 -200 -400 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# conn_CONN_2
+# Driverino-Shield-rescue_FUSE-device
 #
-DEF conn_CONN_2 P 0 40 Y N 1 F N
-F0 "P" -50 0 40 V V C CNN
-F1 "conn_CONN_2" 50 0 40 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 150 100 -150 0 1 0 N
-X P1 1 -350 100 250 R 60 60 1 1 P I
-X PM 2 -350 -100 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# conn_CONN_3
-#
-DEF conn_CONN_3 K 0 40 Y N 1 F N
-F0 "K" -50 0 50 V V C CNN
-F1 "conn_CONN_3" 50 0 40 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 150 100 -150 0 1 0 N
-X P1 1 -350 100 250 R 60 60 1 1 P I
-X PM 2 -350 0 250 R 60 60 1 1 P I
-X P3 3 -350 -100 250 R 60 60 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# conn_CONN_8
-#
-DEF conn_CONN_8 P 0 40 Y N 1 F N
-F0 "P" -50 0 60 V V C CNN
-F1 "conn_CONN_8" 50 0 60 V V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-S -100 400 100 -400 0 1 0 N
-X P1 1 -350 350 250 R 50 50 1 1 P I
-X P2 2 -350 250 250 R 50 50 1 1 P I
-X P3 3 -350 150 250 R 50 50 1 1 P I
-X P4 4 -350 50 250 R 50 50 1 1 P I
-X P5 5 -350 -50 250 R 50 50 1 1 P I
-X P6 6 -350 -150 250 R 50 50 1 1 P I
-X P7 7 -350 -250 250 R 50 50 1 1 P I
-X P8 8 -350 -350 250 R 50 50 1 1 P I
-ENDDRAW
-ENDDEF
-#
-# device_C
-#
-DEF device_C C 0 10 N Y 1 F N
-F0 "C" 0 100 40 H V L CNN
-F1 "device_C" 6 -85 40 H V L CNN
-F2 "" 38 -150 30 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- SM*
- C?
- C1-1
-$ENDFPLIST
-DRAW
-P 2 0 1 20 -80 -30 80 -30 N
-P 2 0 1 20 -80 30 80 30 N
-X ~ 1 0 200 170 D 40 40 1 1 P
-X ~ 2 0 -200 170 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_CP1
-#
-DEF device_CP1 C 0 10 N N 1 F N
-F0 "C" 50 100 50 H V L CNN
-F1 "device_CP1" 50 -100 50 H V L CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- CP*
- SM*
-$ENDFPLIST
-DRAW
-A 0 -200 180 563 1236 0 1 15 N 100 -50 -100 -50
-T 0 -50 100 80 0 0 0 + Normal 0 C C
-P 4 0 1 15 -100 50 100 50 50 50 50 50 N
-X ~ 1 0 200 150 D 40 40 1 1 P
-X ~ 2 0 -200 180 U 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_FUSE
-#
-DEF device_FUSE F 0 10 Y Y 1 F N
+DEF Driverino-Shield-rescue_FUSE-device F 0 10 Y Y 1 F N
 F0 "F" 100 50 40 H V C CNN
-F1 "device_FUSE" -100 -50 40 H V C CNN
+F1 "Driverino-Shield-rescue_FUSE-device" -100 -50 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -245,11 +280,42 @@ X ~ 2 250 0 100 L 40 40 1 1 I
 ENDDRAW
 ENDDEF
 #
-# device_INDUCTOR_SMALL
+# Driverino-Shield-rescue_GND-power
 #
-DEF device_INDUCTOR_SMALL L 0 0 N N 1 F N
+DEF Driverino-Shield-rescue_GND-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 0 30 H I C CNN
+F1 "Driverino-Shield-rescue_GND-power" 0 -70 30 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
+X GND 1 0 0 0 U 30 30 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_GNDPWR-power
+#
+DEF Driverino-Shield-rescue_GNDPWR-power #PWR 0 0 N N 1 F P
+F0 "#PWR" 0 50 40 H I C CNN
+F1 "Driverino-Shield-rescue_GNDPWR-power" 0 -80 40 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 3 0 1 8 -40 0 -50 -30 -50 -30 N
+P 3 0 1 8 -20 0 -30 -30 -30 -30 N
+P 3 0 1 8 0 0 -10 -30 -10 -30 N
+P 3 0 1 8 20 0 10 -30 10 -30 N
+P 3 0 1 10 40 0 -40 0 -40 0 N
+P 4 0 1 8 40 0 30 -30 30 -30 30 -30 N
+X GNDPWR 1 0 0 0 U 40 40 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_INDUCTOR_SMALL-device
+#
+DEF Driverino-Shield-rescue_INDUCTOR_SMALL-device L 0 0 N N 1 F N
 F0 "L" 0 100 50 H V C CNN
-F1 "device_INDUCTOR_SMALL" 0 -50 50 H V C CNN
+F1 "Driverino-Shield-rescue_INDUCTOR_SMALL-device" 0 -50 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -262,11 +328,11 @@ X 2 2 250 0 50 L 30 30 1 1 I
 ENDDRAW
 ENDDEF
 #
-# device_JUMPER3
+# Driverino-Shield-rescue_JUMPER3-device
 #
-DEF device_JUMPER3 JP 0 30 Y N 1 F N
+DEF Driverino-Shield-rescue_JUMPER3-device JP 0 30 Y N 1 F N
 F0 "JP" 50 -100 40 H V L CNN
-F1 "device_JUMPER3" 0 100 40 H V C CNN
+F1 "Driverino-Shield-rescue_JUMPER3-device" 0 100 40 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
@@ -281,11 +347,11 @@ X 3 3 250 0 95 L 40 40 0 1 P
 ENDDRAW
 ENDDEF
 #
-# device_LED
+# Driverino-Shield-rescue_LED-device
 #
-DEF device_LED D 0 40 Y N 1 F N
+DEF Driverino-Shield-rescue_LED-device D 0 40 Y N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "device_LED" 0 -100 50 H V C CNN
+F1 "Driverino-Shield-rescue_LED-device" 0 -100 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 $FPLIST
@@ -307,126 +373,11 @@ X A 2 -200 0 150 R 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
-# device_R
+# Driverino-Shield-rescue_MCT8316Z-texas2
 #
-DEF device_R R 0 0 N Y 1 F N
-F0 "R" 80 0 40 V V C CNN
-F1 "device_R" 7 1 40 V V C CNN
-F2 "" -70 0 30 V V C CNN
-F3 "" 0 0 30 H V C CNN
-$FPLIST
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$ENDFPLIST
-DRAW
-S -40 150 40 -150 0 1 12 N
-X ~ 1 0 250 100 D 60 60 1 1 P
-X ~ 2 0 -250 100 U 60 60 1 1 P
-ENDDRAW
-ENDDEF
-#
-# device_ZENER
-#
-DEF device_ZENER D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "device_ZENER" 0 -100 40 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- D?
- SO*
- SM*
-$ENDFPLIST
-DRAW
-P 5 0 1 0 50 0 -50 50 -50 -50 50 0 50 0 F
-P 5 0 1 8 70 50 50 30 50 -30 30 -50 30 -50 N
-X A 1 -200 0 150 R 40 40 1 1 P
-X K 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+3.3V
-#
-DEF power_+3.3V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -40 30 H I C CNN
-F1 "power_+3.3V" 0 110 30 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3,3V
-DRAW
-C 0 60 20 0 1 0 N
-P 3 0 1 0 0 0 0 40 0 40 N
-X +3.3V 1 0 0 0 U 30 30 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# power_+36V
-#
-DEF power_+36V #PWR 0 0 N Y 1 F P
-F0 "#PWR" 0 -30 30 H I C CNN
-F1 "power_+36V" 0 110 40 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 60 20 0 1 0 N
-P 4 0 1 0 0 0 0 40 0 40 0 40 N
-X +36V 1 0 0 0 U 30 30 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 0 30 H I C CNN
-F1 "power_GND" 0 -70 30 H I C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 4 0 1 0 -50 0 0 -50 50 0 -50 0 N
-X GND 1 0 0 0 U 30 30 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GNDPWR
-#
-DEF power_GNDPWR #PWR 0 0 N N 1 F P
-F0 "#PWR" 0 50 40 H I C CNN
-F1 "power_GNDPWR" 0 -80 40 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 3 0 1 8 -40 0 -50 -30 -50 -30 N
-P 3 0 1 8 -20 0 -30 -30 -30 -30 N
-P 3 0 1 8 0 0 -10 -30 -10 -30 N
-P 3 0 1 8 20 0 10 -30 10 -30 N
-P 3 0 1 10 40 0 -40 0 -40 0 N
-P 4 0 1 8 40 0 30 -30 30 -30 30 -30 N
-X GNDPWR 1 0 0 0 U 40 40 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_VCC
-#
-DEF power_VCC #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 100 30 H I C CNN
-F1 "power_VCC" 0 100 30 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-C 0 50 20 0 1 0 N
-P 3 0 1 0 0 0 0 30 0 30 N
-X VCC 1 0 0 0 U 20 20 0 0 W N
-ENDDRAW
-ENDDEF
-#
-# texas2_MCT8316Z
-#
-DEF texas2_MCT8316Z U 0 40 Y Y 1 F N
+DEF Driverino-Shield-rescue_MCT8316Z-texas2 U 0 40 Y Y 1 F N
 F0 "U" 0 125 50 H V C CNN
-F1 "texas2_MCT8316Z" 0 0 50 H V C CNN
+F1 "Driverino-Shield-rescue_MCT8316Z-texas2" 0 0 50 H V C CNN
 F2 "" 1925 275 50 H I C CNN
 F3 "" 1925 275 50 H I C CNN
 DRAW
@@ -472,6 +423,61 @@ X CPL 6 -825 50 200 R 50 50 0 0 W
 X CPH 7 -825 -50 200 R 50 50 0 0 W
 X CP 8 -825 -150 200 R 50 50 0 0 W
 X VM 9 -825 -250 200 R 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_R-device
+#
+DEF Driverino-Shield-rescue_R-device R 0 0 N Y 1 F N
+F0 "R" 80 0 40 V V C CNN
+F1 "Driverino-Shield-rescue_R-device" 7 1 40 V V C CNN
+F2 "" -70 0 30 V V C CNN
+F3 "" 0 0 30 H V C CNN
+$FPLIST
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$ENDFPLIST
+DRAW
+S -40 150 40 -150 0 1 12 N
+X ~ 1 0 250 100 D 60 60 1 1 P
+X ~ 2 0 -250 100 U 60 60 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_VCC-power
+#
+DEF Driverino-Shield-rescue_VCC-power #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 100 30 H I C CNN
+F1 "Driverino-Shield-rescue_VCC-power" 0 100 30 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 50 20 0 1 0 N
+P 3 0 1 0 0 0 0 30 0 30 N
+X VCC 1 0 0 0 U 20 20 0 0 W N
+ENDDRAW
+ENDDEF
+#
+# Driverino-Shield-rescue_ZENER-device
+#
+DEF Driverino-Shield-rescue_ZENER-device D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Driverino-Shield-rescue_ZENER-device" 0 -100 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ D?
+ SO*
+ SM*
+$ENDFPLIST
+DRAW
+P 5 0 1 0 50 0 -50 50 -50 -50 50 0 50 0 F
+P 5 0 1 8 70 50 50 30 50 -30 30 -50 30 -50 N
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
 ENDDRAW
 ENDDEF
 #
