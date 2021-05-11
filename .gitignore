@@ -27,3 +27,6 @@ fp-info-cache
 
 # Made-with-KiCAD folder
 made-with-kicad
+
+# Spreadsheet files (KiCost BOM)
+*.xlsx
