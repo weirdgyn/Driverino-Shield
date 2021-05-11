@@ -1,3 +1,4 @@
+summary: Driverino-Shield is a simple, low power, driver for PM BLDC sensored motors.
 gerbers: Production
 color: blue
 bom: 1-click-bom.csv
