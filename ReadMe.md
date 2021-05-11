@@ -5,6 +5,7 @@
 Driverino-Shield is a simple, low power, driver for [BLDC](https://en.wikipedia.org/wiki/Brushless_DC_electric_motor) sensored motors.
 The project target was to create an Arduino shield capable of driving a PM BLDC motor rated about 50-100W.
 The board is fitted with TI MCT8316Z BLDC driver.
+The board was designed with KiCAD.
 
 # TODO:
 
