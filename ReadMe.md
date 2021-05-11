@@ -10,6 +10,7 @@ The board was designed with KiCAD.
 # TODO:
 
 - [ ] Add features:
+   - [ ] encoder input.
    - [ ] current measurement (via INA250).
 - [ ] Optimize PCB layout.
 - [ ] Write Library.
