@@ -1,4 +1,4 @@
-summary: Driverino-Shield is a simple, low power, driver for PM BLDC sensored motors.
+summary: Driverino-Shield is an Arduino based simple, low power controller for PM BLDC sensored motors.
 gerbers: Production
 color: blue
 bom: 1-click-bom.csv
