@@ -1,5 +1,5 @@
-Drill report for C:\Users\weird\source\repos\Driverino-Shield\Driverino-Shield.kicad_pcb
-Created on 12/05/2021 14:33:54
+Drill report for C:\Users\m.santucci\source\repos\Driverino-Shield\PCB\Driverino-Shield.kicad_pcb
+Created on 13/05/2021 12:35:09
 
 Copper Layer Stackup:
     =============================================================
@@ -10,12 +10,12 @@ Copper Layer Stackup:
 Drill file 'Driverino-Shield-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0.30mm  0.012"  (16 holes)
-    T2  0.40mm  0.016"  (45 holes)
-    T3  0.50mm  0.020"  (8 holes)
-    T4  0.65mm  0.026"  (5 holes)
-    T5  1.02mm  0.040"  (32 holes)
-    T6  1.30mm  0.051"  (5 holes)
+    T1  0,30mm  0,012"  (16 holes)
+    T2  0,40mm  0,016"  (45 holes)
+    T3  0,50mm  0,020"  (8 holes)
+    T4  0,65mm  0,026"  (5 holes)
+    T5  1,02mm  0,040"  (32 holes)
+    T6  1,30mm  0,051"  (5 holes)
 
     Total plated holes count 111
 
@@ -23,6 +23,6 @@ Drill file 'Driverino-Shield-PTH.drl' contains
 Drill file 'Driverino-Shield-NPTH.drl' contains
     unplated through holes:
     =============================================================
-    T1  3.05mm  0.120"  (4 holes)
+    T1  3,05mm  0,120"  (4 holes)
 
     Total unplated holes count 4
