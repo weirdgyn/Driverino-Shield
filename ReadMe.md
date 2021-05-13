@@ -18,6 +18,10 @@ PCB has been fully designed with KiCAD.
 - [ ] Write Firmware.
 - [ ] Submit to Made-With-KiCAD
 
+# License
+
+This project is released under CERN Open Hardware Licence Version 2 - Permissive.
+
 # Links
 * [This project on kitspace](https://kitspace.org/boards/github.com/weirdgyn/driverino-shield/)
 * [TI MCT8316Z](https://www.ti.com/product/MCT8316Z?keyMatch=MCT8316Z&tisearch=search-everything)
