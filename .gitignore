@@ -23,10 +23,12 @@ fp-info-cache
 
 # Exported BOM files
 *.xml
-#*.csv
-
-# Made-with-KiCAD folder
-made-with-kicad
+*.csv
+!1-click-bom.csv
 
 # Spreadsheet files (KiCost BOM)
 *.xlsx
+
+# Made-with-KiCAD folder
+PCB/made-with-kicad
+
