@@ -27,3 +27,11 @@ This project is released under CERN Open Hardware Licence Version 2 - Permissive
 * [TI MCT8316Z](https://www.ti.com/product/MCT8316Z?keyMatch=MCT8316Z&tisearch=search-everything)
 * [Arduino](https://www.arduino.cc/)
 * [KiCAD](https://www.kicad.org/)
+
+#
+
+Live long and prosper!
+
+That's all folks.
+
+By[t]e{s} Weirdgyn
