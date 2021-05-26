@@ -10,13 +10,13 @@ PCB has been fully designed with KiCAD.
 
 # TODO:
 
+- [X] Submit to Made-With-KiCAD
 - [ ] Add features:
    - [ ] encoder input.
    - [ ] current measurement (via INA250).
 - [ ] Optimize PCB layout.
 - [ ] Write Library.
-- [ ] Write Firmware.
-- [ ] Submit to Made-With-KiCAD
+   - [ ] Write Firmware.
 
 # License
 
